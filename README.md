@@ -1,10 +1,8 @@
 # Condition Monitoring of Hydraulic Systems Data Set
 
-### Source:
+**Creator:** ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbracken
 
-Creator: ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbracken
-
-Contact:
+**Contact:**
   - t.schneider@zema.de
   - s.klein@zema.de
   - m.bastuck@lmt.uni-saarland.de
