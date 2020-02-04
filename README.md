@@ -3,6 +3,7 @@
 ### Source:
 
 Creator: ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbracken
+
 Contact: t.schneider@zema.de, s.klein@zema.de, m.bastuck@lmt.uni-saarland.de, info@lmt.uni-saarland.de
 
 ### Data Set Information:
@@ -18,25 +19,25 @@ The data set was experimentally obtained with a hydraulic test rig. This test ri
 
 The data set contains raw process sensor data (i.e. without feature extraction) which are structured as matrices (tab-delimited) with the rows representing the cycles and the columns the data points within a cycle. The sensors involved are:
 
-Sensor \n Physical quantity Unit Sampling rate:
+Sensor / Physical quantity / Unit / Sampling / Rate:
 
-- PS1 Pressure bar 100 Hz
-- PS2 Pressure bar 100 Hz
-- PS3 Pressure bar 100 Hz
-- PS4 Pressure bar 100 Hz
-- PS5 Pressure bar 100 Hz
-- PS6 Pressure bar 100 Hz
-- EPS1 Motor power W 100 Hz
-- FS1 Volume flow l/min 10 Hz
-- FS2 Volume flow l/min 10 Hz
-- TS1 Temperature °C 1 Hz
-- TS2 Temperature °C 1 Hz
-- TS3 Temperature °C 1 Hz
-- TS4 Temperature °C 1 Hz
-- VS1 Vibration mm/s 1 Hz
-- CE Cooling efficiency (virtual) % 1 Hz
-- CP Cooling power (virtual) kW 1 Hz
-- SE Efficiency factor % 1 Hz
+- PS1 / Pressure / bar / 100 Hz
+- PS2 / Pressure / bar / 100 Hz
+- PS3 / Pressure / bar / 100 Hz
+- PS4 / Pressure / bar / 100 Hz
+- PS5 / Pressure / bar 100 Hz
+- PS6 / Pressure / bar 100 Hz
+- EPS1 / Motor power / W 100 Hz
+- FS1 / Volume flow / l/min 10 Hz
+- FS2 / Volume flow / l/min 10 Hz
+- TS1 / Temperature / °C 1 Hz
+- TS2 / Temperature / °C 1 Hz
+- TS3 / Temperature / °C 1 Hz
+- TS4 / Temperature / °C 1 Hz
+- VS1 / Vibration / mm/s 1 Hz
+- CE / Cooling efficiency / % / 1 Hz
+- CP / Cooling power / kW / 1 Hz
+- SE / Efficiency factor / % / 1 Hz
 
 The target condition values are cycle-wise annotated in â€˜profile.txtâ€˜ (tab-delimited). As before, the row number represents the cycle number. The columns are
 
