@@ -31,7 +31,8 @@ The data set was experimentally obtained with a hydraulic test rig. This test ri
 
 The data set contains raw process sensor data (i.e. without feature extraction) which are structured as matrices (tab-delimited) with the rows representing the cycles and the columns the data points within a cycle. The sensors involved are:
 
-Sensor | Physical quantity | Unit | Sampling | Rate:
+Sensor | Physical quantity | Unit | Sampling | Rate
+-------|-------------------|------|----------|-----
 PS1 | Pressure | bar | 100 Hz
 PS2 | Pressure | bar | 100 Hz
 PS3 | Pressure | bar | 100 Hz
