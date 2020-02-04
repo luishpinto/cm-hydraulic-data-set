@@ -14,14 +14,14 @@ Contact:
 
 The data set was experimentally obtained with a hydraulic test rig. This test rig consists of a primary working and a secondary cooling-filtration circuit which are connected via the oil tank. The system cyclically repeats constant load cycles (duration 60 seconds) and measures process values such as pressures, volume flows and temperatures while the condition of four hydraulic components (cooler, valve, pump and accumulator) is quantitatively varied.
 
-- Data Type:          Multivariate, Time-Series
-- Task:               Classification, Regression
-- Attribute Type:     Categorical, Real
-- Area:               CS / Engineering
-- Format Type:        Matrix
-- Missing values?     No
-- Instances:          2205
-- Attributes:         43680 (8 x 60 (1 Hz) + 2 x 600 (10 Hz) + 7 x 6000 (100 Hz))
+- Data Type:          **Multivariate, Time-Series**
+- Task:               **Classification, Regression**
+- Attribute Type:     **Categorical, Real**
+- Area:               **CS / Engineering**
+- Format Type:        **Matrix**
+- Missing values?     **No**
+- Instances:          **2205**
+- Attributes:         **43680 (8 x 60 (1 Hz) + 2 x 600 (10 Hz) + 7 x 6000 (100 Hz))**
 
 ### Attribute Information:
 
@@ -31,25 +31,24 @@ The data set was experimentally obtained with a hydraulic test rig. This test ri
 
 The data set contains raw process sensor data (i.e. without feature extraction) which are structured as matrices (tab-delimited) with the rows representing the cycles and the columns the data points within a cycle. The sensors involved are:
 
-#### Sensor / Physical quantity / Unit / Sampling / Rate:
-
-- PS1 / Pressure / bar / 100 Hz
-- PS2 / Pressure / bar / 100 Hz
-- PS3 / Pressure / bar / 100 Hz
-- PS4 / Pressure / bar / 100 Hz
-- PS5 / Pressure / bar 100 Hz
-- PS6 / Pressure / bar 100 Hz
-- EPS1 / Motor power / W 100 Hz
-- FS1 / Volume flow / l/min 10 Hz
-- FS2 / Volume flow / l/min 10 Hz
-- TS1 / Temperature / °C 1 Hz
-- TS2 / Temperature / °C 1 Hz
-- TS3 / Temperature / °C 1 Hz
-- TS4 / Temperature / °C 1 Hz
-- VS1 / Vibration / mm/s 1 Hz
-- CE / Cooling efficiency (virtual) / % / 1 Hz
-- CP / Cooling power / kW / 1 Hz
-- SE / Efficiency factor / % / 1 Hz
+#### Sensor | Physical quantity | Unit | Sampling | Rate:
+PS1 | Pressure | bar | 100 Hz
+PS2 | Pressure | bar | 100 Hz
+PS3 | Pressure | bar | 100 Hz
+PS4 | Pressure | bar | 100 Hz
+PS5 | Pressure | bar | 100 Hz
+PS6 | Pressure | bar | 100 Hz
+EPS1 | Motor power | W | 100 Hz
+FS1 | Volume flow | l/min | 10 Hz
+FS2 | Volume flow | l/min | 10 Hz
+TS1 | Temperature | °C | 1 Hz
+TS2 | Temperature | °C | 1 Hz
+TS3 | Temperature | °C | 1 Hz
+TS4 | Temperature | °C | 1 Hz
+VS1 | Vibration | mm/s | 1 Hz
+CE | Cooling efficiency (virtual) | % | 1 Hz
+CP | Cooling power | kW | 1 Hz
+SE | Efficiency factor | % | 1 Hz
 
 The target condition values are cycle-wise annotated in 'profile.txt' (tab-delimited). As before, the row number represents the cycle number. The columns are
 
