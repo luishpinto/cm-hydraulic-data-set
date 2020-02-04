@@ -39,7 +39,7 @@ The data set contains raw process sensor data (i.e. without feature extraction) 
 - TS3 / Temperature / °C 1 Hz
 - TS4 / Temperature / °C 1 Hz
 - VS1 / Vibration / mm/s 1 Hz
-- CE / Cooling efficiency / % / 1 Hz
+- CE / Cooling efficiency (virtual) / % / 1 Hz
 - CP / Cooling power / kW / 1 Hz
 - SE / Efficiency factor / % / 1 Hz
 
