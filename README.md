@@ -5,11 +5,10 @@
 Creator: ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbracken
 
 Contact:
-  
-  t.schneider@zema.de
-  s.klein@zema.de
-  m.bastuck@lmt.uni-saarland.de
-  info@lmt.uni-saarland.de
+  - t.schneider@zema.de
+  - s.klein@zema.de
+  - m.bastuck@lmt.uni-saarland.de
+  - info@lmt.uni-saarland.de
 
 ### Data Set Information:
 
