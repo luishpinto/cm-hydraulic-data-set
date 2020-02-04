@@ -54,9 +54,9 @@ SE | Efficiency factor | % | 1 Hz
 The target condition values are cycle-wise annotated in 'profile.txt' (tab-delimited). As before, the row number represents the cycle number. The columns are
 
 #### 1: Cooler condition (in %):
-- 3 -- close to total failure
-- 20 -- reduced effifiency
-- 100 -- full efficiency
+- 3 > close to total failure
+- 20 > reduced effifiency
+- 100 > full efficiency
 
 #### 2: Valve condition (in %):
 - 100 -- optimal switching behavior
