@@ -4,7 +4,12 @@
 
 Creator: ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbracken
 
-Contact: t.schneider@zema.de, s.klein@zema.de, m.bastuck@lmt.uni-saarland.de, info@lmt.uni-saarland.de
+Contact:
+  
+  t.schneider@zema.de
+  s.klein@zema.de
+  m.bastuck@lmt.uni-saarland.de
+  info@lmt.uni-saarland.de
 
 ### Data Set Information:
 
@@ -13,7 +18,7 @@ The data set was experimentally obtained with a hydraulic test rig. This test ri
 
 ### Attribute Information:
 
-The data set was experimentally obtained with a hydraulic test rig. This test rig consists of a primary working and a secondary cooling-filtration circuit which are connected via the oil tank [1], [2]. The system cyclically repeats constant load cycles (duration 60 seconds) and measures process values such as pressures, volume flows and temperatures while the condition of four hydraulic components (cooler, valve, pump and accumulator) is quantitatively varied.
+The data set was experimentally obtained with a hydraulic test rig. This test rig consists of a primary working and a secondary cooling-filtration circuit which are connected via the oil tank. The system cyclically repeats constant load cycles (duration 60 seconds) and measures process values such as pressures, volume flows and temperatures while the condition of four hydraulic components (cooler, valve, pump and accumulator) is quantitatively varied.
 
 ### Attribute Information:
 
@@ -39,12 +44,12 @@ Sensor / Physical quantity / Unit / Sampling / Rate:
 - CP / Cooling power / kW / 1 Hz
 - SE / Efficiency factor / % / 1 Hz
 
-The target condition values are cycle-wise annotated in â€˜profile.txtâ€˜ (tab-delimited). As before, the row number represents the cycle number. The columns are
+The target condition values are cycle-wise annotated in 'profile.txt' (tab-delimited). As before, the row number represents the cycle number. The columns are
 
-1: Cooler condition / %:
-3: close to total failure
-20: reduced effifiency
-100: full efficiency
+#### 1: Cooler condition:
+- 3 -- close to total failure
+- 20 -- reduced effifiency
+- 100 -- full efficiency
 
 2: Valve condition / %:
 100: optimal switching behavior
