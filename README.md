@@ -14,14 +14,14 @@ Contact:
 
 The data set was experimentally obtained with a hydraulic test rig. This test rig consists of a primary working and a secondary cooling-filtration circuit which are connected via the oil tank. The system cyclically repeats constant load cycles (duration 60 seconds) and measures process values such as pressures, volume flows and temperatures while the condition of four hydraulic components (cooler, valve, pump and accumulator) is quantitatively varied.
 
-- Data Type:          **Multivariate, Time-Series**
-- Task:               **Classification, Regression**
-- Attribute Type:     **Categorical, Real**
-- Area:               **CS / Engineering**
-- Format Type:        **Matrix**
-- Missing values?     **No**
-- Instances:          **2205**
-- Attributes:         **43680 (8 x 60 (1 Hz) + 2 x 600 (10 Hz) + 7 x 6000 (100 Hz))**
+- **Data Type:** Multivariate, Time-Series
+- **Task:** Classification, Regression
+- **Attribute Type:** Categorical, Real
+- **Area:** CS / Engineering
+- **Format Type:** Matrix
+- **Missing values?** No
+- **Instances:** 2205
+- **Attributes:** 43680 (8 x 60 (1 Hz) + 2 x 600 (10 Hz) + 7 x 6000 (100 Hz))
 
 ### Attribute Information:
 
